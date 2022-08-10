@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wmsappsync-dev-133840-authRole",
+      "UnauthRoleArn": "arn:aws:iam::623965267518:role/amplify-wmsappsync-dev-133840-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::623965267518:role/amplify-wmsappsync-dev-133840-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-wmsappsync-dev-133840-deployment",
+      "UnauthRoleName": "amplify-wmsappsync-dev-133840-unauthRole",
+      "StackName": "amplify-wmsappsync-dev-133840",
+      "StackId": "arn:aws:cloudformation:ap-south-1:623965267518:stack/amplify-wmsappsync-dev-133840/b7d6fae0-dfef-11ec-8948-061b030fdc30",
+      "AmplifyAppId": "d1tmhrj7zlkagz"
+    },
+    "categories": {
+      "auth": {
+        "wmsappsync0d3e3470": {}
+      }
+    }
+  }
+}

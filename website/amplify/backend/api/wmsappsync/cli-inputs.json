@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "wmsappsync",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\akshta\\AppSync-Demo\\App-Sync-Cognito(wildRyder)\\amazon-cognito-identity-management-workshop\\website\\amplify\\backend\\api\\wmsappsync\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}

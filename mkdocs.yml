@@ -1,0 +1,52 @@
+# Project information
+
+site_name: 'AWS Identity: Using Amazon Cognito for serverless consumer apps'
+site_short_name: 'Using Amazon Cognito for serverless consumer apps'
+site_description: 'In this workshop, you learn how to build a serverless customer-facing microservices application demonstrating end-to-end authentication and authorization using Amazon Cognito, Amazon API Gateway, AWS Lambda, and all things AWS Identity and Access Management (IAM). You have the opportunity to build an end-to-end functional app with a secure identity provider showcasing user authentication patterns.'
+site_author: 'aws-security-workshops@amazon.com'
+site_url: 'https://serverless-idm.awssecworkshops.com/'
+
+# Repository
+repo_name: 'aws-samples/amazon-cognito-identity-management-workshop'
+repo_url: 'https://github.com/aws-samples/amazon-cognito-identity-management-workshop'
+
+# Copyright
+copyright: '<a href="https://aws.amazon.com/privacy/" target="_blank">Privacy</a> | <a href="https://aws.amazon.com/terms/" target="_blank">Site terms</a> | &copy; 2020, Amazon Web Services, Inc. or its affiliates. All rights reserved.'
+
+# Configuration
+theme:
+  name: 'material'
+  logo: 'assets/images/aws_smile_logo.png'
+  favicon: 'assets/images/aws-favicon.ico'
+
+# Customization
+extra_css:
+  - 'stylesheets/custom.css'
+
+extra:
+  social:
+    - icon: fontawesome/solid/home
+      link: https://awssecworkshops.com
+    - icon: fontawesome/solid/shield-alt
+      link: https://aws.amazon.com/security/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/awssecurityinfo?lang=en
+    - icon: fontawesome/solid/rss-square
+      link: https://aws.amazon.com/blogs/security/
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.details
+
+# Navigation
+nav:
+  - Overview: 'index.md'
+  - 'Module 0: Environment setup': '00-env-setup.md'
+  - 'Module 1: User flows': '01-user-auth.md'
+  - 'Module 2: Backend authorization': '02-backend-auth.md'
+  - 'Module 3: Temporary AWS credentials': '03-iam-auth.md'
+  - 'Module 4: Clean up': '04-clean-up.md'
+  - Contributing: 'contribute.md'
+  - License: 'license.md'

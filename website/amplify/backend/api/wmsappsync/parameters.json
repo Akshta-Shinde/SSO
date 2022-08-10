@@ -1,0 +1,5 @@
+{
+  "AppSyncApiName": "wmsappsync",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false
+}
